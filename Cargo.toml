@@ -1,0 +1,11 @@
+[package]
+name = "filter_playground"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# filter_parser = { path = "../milli/filter_parser" }
+filter_parser = { git = "https://github.com/meilisearch/milli", branch = "filters" }
+termion = "1.5.6"
